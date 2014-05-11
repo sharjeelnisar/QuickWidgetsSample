@@ -64,7 +64,7 @@ public class QuickBarGraphDemo extends Activity {
 			 qBarGraphs[counter].setBarWidth(50);
 			 qBarGraphs[counter].setBarXCoordinate(0);
 			 qBarGraphs[counter].setBarYCoordinate(220-data[counter]);
-			qBarGraphs[counter].setyLabel(String.valueOf(data[counter]));
+			qBarGraphs[counter].setyLabel("$" + String.valueOf(data[counter]));
 			qBarGraphs[counter].setyLabelTextSize(14);
 			qBarGraphs[counter].setyLabelXCoordinate(15);
 			qBarGraphs[counter].setyLabelYCoordinate(210-data[counter]);
